@@ -24,6 +24,12 @@
       "type": "component",
       "repeatable": false,
       "component": "page.header"
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.about",
+      "required": false
     }
   }
 }
