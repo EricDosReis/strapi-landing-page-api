@@ -24,6 +24,53 @@
       "type": "component",
       "repeatable": false,
       "component": "page.header"
+    },
+    "sectionAbout": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about"
+    },
+    "sectionTechs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-techs"
+    },
+    "sectionConcepts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-concepts",
+      "required": true
+    },
+    "sectionModules": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-modules"
+    },
+    "sectionSchedule": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-schedule",
+      "required": false
+    },
+    "pricingBox": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.pricing-box"
+    },
+    "sectionAboutUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about-us"
+    },
+    "sectionReviews": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-reviews"
+    },
+    "sectionFaq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-faq"
     }
   }
 }
