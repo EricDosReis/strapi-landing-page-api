@@ -25,6 +25,7 @@
       "repeatable": false,
       "component": "page.header"
     },
+<<<<<<< HEAD
     "sectionAbout": {
       "type": "component",
       "repeatable": false,
