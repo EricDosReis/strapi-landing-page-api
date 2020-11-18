@@ -1,6 +1,6 @@
 # Strapi Landing Page - API
 
-A project to learn about Strapi CMS. [Front-end project](https://github.com/EricDosReis/strapi-landing-page-api).
+API made with Strapi to seed the data our NextJS Landing Page. [Landing Page project](https://github.com/EricDosReis/strapi-landing-page-client).
 
 ## Requirements
 
