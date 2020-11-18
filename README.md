@@ -1,6 +1,6 @@
 # Strapi Landing Page - API
 
-This is the API to create the [Strapi Landing Page](https://strapi-landing-page.netlify.app/).
+A project to learn about Strapi CMS. [Front-end project](https://github.com/EricDosReis/strapi-landing-page-api) 
 
 ## Requirements
 
@@ -8,19 +8,13 @@ This project uses [PostgreSQL](https://www.postgresql.org/), so, in order to mak
 
 The configuration to the Database can be found on [config/database.js](config/database.js)
 
-## Development
+**Prerequisites**: NodeJS
 
-After cloning this project, install the dependencies:
-
-```
-yarn install
-```
-
-And run using:
-
-```
-yarn develop
-```
+* open terminal
+* clone this repository `git clone https://github.com/EricDosReis/strapi-landing-page-api.git`
+* go to project folder `cd strapi-landing-page-api`
+* install dependencies `yarn`
+* run `yarn develop`
 
 The urls to access are:
 
