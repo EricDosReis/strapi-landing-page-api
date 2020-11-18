@@ -1,12 +1,12 @@
 # Strapi Landing Page - API
 
-A project to learn about Strapi CMS. [Front-end project](https://github.com/EricDosReis/strapi-landing-page-api) 
+A project to learn about Strapi CMS. [Front-end project](https://github.com/EricDosReis/strapi-landing-page-api).
 
 ## Requirements
 
 This project uses [PostgreSQL](https://www.postgresql.org/), so, in order to make it working, install in your local machine or use Docker.
 
-The configuration to the Database can be found on [config/database.js](config/database.js)
+The configuration to the Database can be found on [config/database.js](config/database.js).
 
 **Prerequisites**: NodeJS
 
