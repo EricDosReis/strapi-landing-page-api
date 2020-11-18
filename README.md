@@ -1,13 +1,34 @@
-# Running instructions
+# Strapi Landing Page - API
 
-**Prerequisites**: NodeJS, Postgres installed or running in a Docker container.
+This is the API to create the [Strapi Landing Page](https://strapi-landing-page.netlify.app/).
 
-* open terminal
-* connect with postgres, configs located in `config/database.js`
-* create a database called 'strapi'
-* clone this repository `git clone https://github.com/EricDosReis/strapi-landing-page-api.git`
-* go to project folder `cd strapi-landing-page-api`
-* install dependencies `npm i` or `yarn`
-* run `yarn develop` or `yarn develop`
+## Requirements
 
-That's all folks!
+This project uses [PostgreSQL](https://www.postgresql.org/), so, in order to make it working, install in your local machine or use Docker.
+
+The configuration to the Database can be found on [config/database.js](config/database.js)
+
+## Development
+
+After cloning this project, install the dependencies:
+
+```
+yarn install
+```
+
+And run using:
+
+```
+yarn develop
+```
+
+The urls to access are:
+
+- `http://localhost:1337/admin` - The Dashboard to create and populate data
+- `http://localhost:1337/graphql` - GraphQL Playground to test your queries
+
+The first time to access the Admin you'll need to create an user.
+
+## Dump data
+
+This project uses `Postgres` and if you want all the data previously, unzip the [data.zip](data.zip), copy the `uploads` folder to [public/uploads](public/uploads) and restore the data from the `dump.sql` file inside the zip.
